@@ -1,0 +1,120 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
+$font-inter: "Inter", sans-serif;
+$clr-black: #000;
+$clr-green: #00ff00;
+$clr-white: #fff;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  font-family: $font-inter;
+}
+
+#app {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .container {
+    width: 90%;
+    max-width: 500px;
+    margin: 0 auto;
+
+    .wrapper {
+      .score-box-wrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 10px;
+        margin-bottom: 20px;
+      }
+
+      .quiz-box-wrapper {
+        border: 5px solid $clr-black;
+        border-radius: 10px;
+        padding: 25px 20px;
+
+        &.done-quiz {
+          margin-bottom: 0px;
+          background-color: $clr-green;
+
+          .question-element {
+            margin-bottom: 0;
+          }
+        }
+
+        p {
+          font-size: 16px;
+          font-weight: 500;
+          letter-spacing: 0.4px;
+        }
+
+        .question-element {
+          margin-bottom: 20px;
+          font-weight: 700;
+        }
+
+        .answer-element {
+          display: flex;
+          flex-direction: column;
+          grid-gap: 20px;
+          justify-content: stretch;
+          align-items: stretch;
+          text-align: left;
+
+          p {
+            cursor: pointer;
+            border: 2px solid $clr-black;
+            padding: 5px 15px;
+            border-radius: 10px;
+            background-color: $clr-white;
+            color: $clr-black;
+          }
+        }
+      }
+    }
+  }
+}
+
+.para {
+  font-size: 16px;
+  letter-spacing: 0.4px;
+
+  &.typ16 {
+    font-size: 16px;
+  }
+
+  &.typ18 {
+    font-size: 18px;
+  }
+
+  &.typ20 {
+    font-size: 20px;
+  }
+
+  &.typ700 {
+    font-weight: 700;
+  }
+
+  &.typ300 {
+    font-weight: 300;
+  }
+
+  &.typ400 {
+    font-weight: 400;
+  }
+
+  &.typ500 {
+    font-weight: 500;
+  }
+}

@@ -1,0 +1,52 @@
+[
+  {
+    "question": "What is 2 + 2?",
+    "options": ["2", "3", "4", "5"],
+    "answer": "4"
+  },
+  {
+    "question": "Which language runs in a browser?",
+    "options": ["Java", "C", "Python", "JavaScript"],
+    "answer": "JavaScript"
+  },
+  {
+    "question": "What is 'hoisting' in JavaScript?",
+    "options": ["A mechanism for moving variable declarations to the top of their scope.", "A way to lift elements in the DOM.", " A technique for optimizing function calls.", "A method for handling asynchronous operations."],
+    "answer": "A mechanism for moving variable declarations to the top of their scope."
+  }
+  ,{
+    "question": "Which of the following declares a block-scoped variable in JavaScript?",
+    "options": ["var", "let", "const","Both b and c"],
+    "answer": "Both b and c"
+  }
+  ,{
+    "question": " Which statement is used to handle exceptions in JavaScript?",
+    "options": ["try...catch", "try...except", "catch...try","try...finally"],
+    "answer": "try...catch"
+  }
+  ,{
+    "question": "What does the map method return?",
+    "options": ["A single value","A new array with the results of calling a provided function on every element","The first element that matches a condition","A boolean value"],
+    "answer": "A new array with the results of calling a provided function on every element"
+  }
+  ,{
+    "question": "What is the purpose of the super keyword in JavaScript?",
+    "options": ["To refer to the parent class constructor","To call a superclass method"," To create a new object","To define a new class"],
+    "answer": "To refer to the parent class constructor"
+  }
+  ,{
+    "question": "Which statement is true about the for...in loop?",
+    "options": ["It iterates over all enumerable properties of an array"," It iterates over all enumerable properties of an object","It iterates over the values of an array","It iterates over the values of an object"],
+    "answer": "It iterates over all enumerable properties of an object"
+  }
+  ,{
+    "question": " Which of the following is not a primitive data type in JavaScript?",
+    "options": ["String","Number","Boolean","Object"],
+    "answer": "Object"
+  }
+  ,{
+    "question": "Which method removes the last element from an array?",
+    "options": ["shift()","unshift()","pop()","push()"],
+    "answer": "Object"
+  }
+]
